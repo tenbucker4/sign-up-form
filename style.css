@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: inherit;
+}
+
+.left-container {
+    width: 500px;
+    color: white;
+    background-image: url(kyle-thacker-unsplash.jpg);
+    background-size: cover;                
+    background-repeat: no-repeat;
+    background-position: center center;  
+    height: 100vh;
+    position: relative;
+}
+
+.logo-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+#logo-text {
+    font-size: 2.5rem;
+    font-family: 'Georgia', sans-serif;
+}
+
+#photo-credit {
+    position: absolute;
+    bottom: 0px;
+    right: 25%;
+}
+
+.quote-container  {
+    width: 100%;
+    height: 35vh;
+}
+
+.right-container p {
+    margin: 0px;
+    padding: 16px;
+}
