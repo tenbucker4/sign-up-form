@@ -15,36 +15,53 @@
             <img src="odin-lined.png" alt="Odin">
             <p id="logo-text">ODIN</p>
         </div>
-        <p id="photo-credit">Photo by <a href="https://unsplash.com/@kylethacker">Kyle Thacker</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+        <p id="photo-credit">Photo by <a href="https://unsplash.com/@kylethacker">Kyle Thacker</a> on <a
+                href="https://unsplash.com/">Unsplash</a></p>
     </div>
     <div class="right-container">
         <div class="quote-container">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize
-            your deepest dreams. Sign up now to get started.</p>
-            <p>You know you want to.</p>
+            <p class="filler-text">Hello! This is not a real online service. I'm just practicing some of the skills I've
+                been learning through The Odin Project! If this were a real online service, I'd tell you to sign up
+                using the form below.</p>
+            <p class="filler-text">You know you want to...</p>
         </div>
-        <form action="" method="post">
-            <label for=""></label>
-            <input type="text">
 
-            <label for=""></label>
-            <input type="text">
+        <div class="form-container">
+            <p class="sign-up-header">Sign Up!</p>
+            <form action="" method="post">
+                <div class="input">
+                    <label for="user_firstname">*First Name</label>
+                    <input type="text" id="user_firstname" minlength="1" maxlength="30" required>
+                </div>
 
-            <label for=""></label>
-            <input type="text">
+                <div class="input">
+                    <label for="user_lastname">*Last Name</label>
+                    <input type="text" id="user_lastname" minlength="1" maxlength="30" required>
+                </div>
 
-            <label for=""></label>
-            <input type="text">
+                <div class="input">
+                    <label for="user_email">*Email</label>
+                    <input type="email" id="user_email" required>
+                </div>
 
-            <label for=""></label>
-            <input type="text">
+                <div class="input">
+                    <label for="user_phonenumber">Phone Number</label>
+                    <input type="tel" id="user_phonenumber">
+                </div>
 
-            <label for=""></label>
-            <input type="text">
+                <div class="input">
+                    <label for="user_password">*Password</label>
+                    <input type="password" id="user_password" required>
+                </div>
 
-            <button type="submit">Create Account</button>
-            <p>Already have an account? Log in</p>
-        </form>
+                <div class="input">
+                    <label for="user_confirmpassword">*Confirm Password</label>
+                    <input type="password" id="user_confirmpassword" required>
+                </div>
+                </form>
+            <button id="submit-btn" type="submit">Create Account</button>
+            <p class="footer-text">Already have an account? <a href="">Log in</a></p>
+        </div>
     </div>
 </body>
 
