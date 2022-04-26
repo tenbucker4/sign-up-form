@@ -12,7 +12,7 @@
     color: var(--txtcolor);
 }
 
-body {
+.content {
     display: flex;
     flex-flow: row wrap;
     margin: 0px;
@@ -24,6 +24,10 @@ body {
 
 a {
     color: rgb(249, 192, 114)
+}
+
+p {
+    max-width: 66ch;
 }
 
 
@@ -58,8 +62,8 @@ img {
 }
 
 #photo-credit {
-    position: fixed;
-    bottom: 1vh;
+    position: relative;
+    top: 80vh;
     left: 1vw;
     padding-bottom: 8px;
     font-size: 0.6rem;
@@ -149,4 +153,35 @@ input:focus{
 #submit-btn:hover {
     background-color: rgb(249, 192, 114);
     color: var(--backgroundcolor);
+}
+
+/* Narrow screen compatibility */
+
+@media only screen and (max-width: 600px) {
+    content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-container {
+        width: 100vw;
+        height: 35vh;
+    }
+
+    .logo-bar {
+        position: static;
+        padding-top: 10vh;
+    }
+
+    #photo-credit {
+        position: static;
+        padding-left: 1vw;
+        padding-top: 7vh;
+    }
+
+    .right-container {
+        width: auto;
+        height: auto;
+    }
+
 }
