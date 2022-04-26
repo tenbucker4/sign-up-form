@@ -1,1 +1,1 @@
-# sign-up-form
+A mock sign-up form created using HTML and CSS. This project allowed me to practice my new skills in form layout and styling, CSS positioning, and adding compatibility for narrow/small screen sizes.
