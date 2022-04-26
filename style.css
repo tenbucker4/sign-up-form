@@ -138,8 +138,6 @@ input:focus{
 }
 
 #submit-btn {
-    margin-left: 64px;
-    flex: 0;
     padding: 4px 16px;
     border-radius: 5px;
     font-size: 1.2rem;
